@@ -53,7 +53,8 @@ Below are outputs from the SQL queries executed in Databricks:
 
 ### INNER JOIN Queries
 - Q1 → Users with subscriptions
-    
+    <img width="567" height="138" alt="image" src="https://github.com/user-attachments/assets/2c1a0743-6647-4bce-a253-8d34c521e1f8" />
+
 - Q2 → Subscriptions with plans
    
 - Q3 → Sessions with matching shows
