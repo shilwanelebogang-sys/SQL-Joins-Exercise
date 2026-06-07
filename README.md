@@ -145,10 +145,10 @@ ON u.user_id = s.user_id;
 ## ⚠️ Important Observations
 The dataset includes intentional gaps to demonstrate join behavior:
 
-Some users have no subscriptions
-Some subscriptions reference non-existing users
-Some shows were never watched
-Some viewing sessions reference invalid shows
+- Some users have no subscriptions
+- Some subscriptions reference non-existing users
+- Some shows were never watched
+- Some viewing sessions reference invalid shows
 
 ---
 
