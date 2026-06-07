@@ -165,15 +165,15 @@ This execise reflects real-world use cases such as:
 
 ## 📝 Bonus Insights
 
-INNER JOIN → shows valid relationships
-LEFT JOIN → highlights missing data on one side
-FULL OUTER JOIN → reveals complete data gaps
-NULL values indicate missing relationships
+- INNER JOIN → shows valid relationships
+- LEFT JOIN → highlights missing data on one side
+- FULL OUTER JOIN → reveals complete data gaps
+- NULL values indicate missing relationships
 
 ---
 
 ## ✅ Conclusion
 
-✔ INNER JOIN → use for matched data
-✔ LEFT JOIN → use to keep all base records
-✔ FULL OUTER JOIN → use to analyse all gaps
+- ✔ INNER JOIN → use for matched data
+- ✔ LEFT JOIN → use to keep all base records
+- ✔ FULL OUTER JOIN → use to analyse all gaps
