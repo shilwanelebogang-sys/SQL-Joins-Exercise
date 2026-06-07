@@ -1,4 +1,4 @@
-# 💼 SQL Project: JOIN Operations (NexStream Case Study)
+# 💼 SQL Joins Exercise
 
 ## 👤 About Me
 Hi, I'm **Lebogang Shilwane**, a data-focused professional building practical skills in SQL, data analysis, and reporting.
