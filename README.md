@@ -155,11 +155,11 @@ The dataset includes intentional gaps to demonstrate join behavior:
 ## 🚀 Business Value
 This execise reflects real-world use cases such as:
 
--📊 Customer activity analysis
--📈 Subscription and revenue insights
--🎬 Content engagement tracking
--🧾 Data quality checks
--🏢 Reporting across multiple data sources
+- 📊 Customer activity analysis
+- 📈 Subscription and revenue insights
+- 🎬 Content engagement tracking
+- 🧾 Data quality checks
+- 🏢 Reporting across multiple data sources
 
 ---
 
