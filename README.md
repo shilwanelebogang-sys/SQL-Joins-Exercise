@@ -111,5 +111,69 @@ Below are outputs from the SQL queries executed in Databricks:
 
 ```sql
 SELECT *
-FROM users u
-INNER JOIN subscriptions s ON u.user_id = s.user_id;
+FROM users AS u
+INNER JOIN subscriptions AS s
+ON u.user_id = s.user_id;
+```
+
+## ✅ LEFT JOIN
+
+Returns all rows from the left table
+Missing matches appear as NULL
+
+```SQL
+SELECT *
+FROM users AS u
+LEFT JOIN subscriptions AS s
+ON u.user_id = s.user_id;
+```
+
+## ✅ FULL OUTER JOIN
+
+Returns all rows from both tables
+Unmatched rows appear as NULL
+
+```SQL
+SELECT *
+FROM users AS u
+FULL OUTER JOIN subscriptions AS s
+ON u.user_id = s.user_id;
+```
+
+---
+
+## ⚠️ Important Observations
+The dataset includes intentional gaps to demonstrate join behavior:
+
+Some users have no subscriptions
+Some subscriptions reference non-existing users
+Some shows were never watched
+Some viewing sessions reference invalid shows
+
+---
+
+## 🚀 Business Value
+This execise reflects real-world use cases such as:
+
+📊 Customer activity analysis
+📈 Subscription and revenue insights
+🎬 Content engagement tracking
+🧾 Data quality checks
+🏢 Reporting across multiple data sources
+
+---
+
+## 📝 Bonus Insights
+
+INNER JOIN → shows valid relationships
+LEFT JOIN → highlights missing data on one side
+FULL OUTER JOIN → reveals complete data gaps
+NULL values indicate missing relationships
+
+---
+
+## ✅ Conclusion
+
+✔ INNER JOIN → use for matched data
+✔ LEFT JOIN → use to keep all base records
+✔ FULL OUTER JOIN → use to analyse all gaps
